@@ -1,15 +1,52 @@
 /*styles.css*/
 
-.welcome {
+#title {
     font-size: 42px;
     font-weight: 800;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto-sans', Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: #a2a2a2;
+    padding: 10px;
 }
-
-.link {
+.spaghetti,
+.greek_salad,
+.eggs_on_toast {
+    width: 250px;
     font-size: 16px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #20a0cf;
+    padding: 10px;
+    margin: 10px auto 0px;
+    display: block;
+    text-align: center;
+}
+.noodles,
+.salad,
+.toast {
+    display: block;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.spaghetti {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #d43219;
+}
+.greek_salad {
+    background-color: #f00202;
+    color: rgb(0, 0, 0);
+}
+.eggs_on_toast {
+    background-color: #ffec42;
+    color: rgb(0, 5, 10);
+}
+.noodles {
+    background-color: rgb(156, 109, 52);
+}
+.salad {
+    background-color: darkgreen;
+
+}
+.toast {
+    background-color: darkgoldenrod;
 }
